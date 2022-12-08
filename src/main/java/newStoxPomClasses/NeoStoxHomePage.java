@@ -7,7 +7,8 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.Reporter;
 
 public class NeoStoxHomePage {
-	
+	//this is master base class
+	//this is home pom page
 	@FindBy(id="lbl_username")private WebElement username;
 	@FindBy(id="lbl_curbalancetop")private WebElement fund;
 	@FindBy(id="lnk_logout")private WebElement logout;
